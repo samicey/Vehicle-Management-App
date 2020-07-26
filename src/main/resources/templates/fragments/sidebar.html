@@ -1,0 +1,92 @@
+
+
+      <div id="sidebar" class="nav-collapse " th:fragment="sidebar">
+        <!-- sidebar menu start-->
+        <ul class="sidebar-menu">
+          <li class="active">
+            <a class="" th:href="@{/index}">
+                          <i class="icon_house_alt"></i>
+                          <span>Dashboard</span>
+                      </a>
+          </li>
+          <li class="sub-menu">
+            <a href="javascript:;" class="">
+                          <i class="icon_document_alt"></i>
+                          <span>Vehicles</span>
+                          <span class="menu-arrow arrow_carrot-right"></span>
+                      </a>
+            <ul class="sub">
+              <li><a class="" th:href="@{/vehicle}">Vehicle Data</a></li>
+              <li><a class="" th:href="@{/vehicleMaintenance}">Vehicle Maintenance</a></li>
+              <li><a class="" th:href="@{/vehicleMovement}">Vehicle Movement</a></li>
+              <li><a class="" th:href="@{/vehicleHire}">Hires</a></li>
+            </ul>
+          </li>
+          <li class="sub-menu">
+            <a href="javascript:;" class="">
+                          <i class="icon_desktop"></i>
+                          <span>Parameters</span>
+                          <span class="menu-arrow arrow_carrot-right"></span>
+                      </a>
+            <ul class="sub">
+              <li><a class="" th:href="@{/vehicleMake}">Vehicle Make</a></li>
+              <li><a class="" th:href="@{/vehicleType}">Vehicle Types</a></li>
+              <li><a class="" th:href="@{/vehicleModel}">Vehicle Models</a></li>
+              <li><a class="" th:href="@{/vehicleStatus}">Status Values</a></li>
+            </ul>
+          </li>
+           <li class="sub-menu">
+            <a href="javascript:;" class="">
+                          <i class="icon_desktop"></i>
+                          <span>People</span>
+                          <span class="menu-arrow arrow_carrot-right"></span>
+                      </a>
+            <ul class="sub">
+              <li><a class="" th:href="@{/employee}">Employees</a></li>
+              <li><a class="" th:href="@{/clients}">Clients</a></li>
+              <li><a class="" th:href="@{/supplier}">Suppliers</a></li>
+              <li><a class="" th:href="@{/contacts}">Contacts</a></li>
+              <li><a class="" th:href="@{/user}">User</a></li>
+            </ul>
+          </li>
+          <li class="sub-menu">
+            <a href="javascript:;" class="">
+                          <i class="icon_desktop"></i>
+                          <span>HR Settings</span>
+                          <span class="menu-arrow arrow_carrot-right"></span>
+                      </a>
+            <ul class="sub">
+              <li><a class="" th:href="@{/jobTitle}">Job Title</a></li>
+              <li><a class="" th:href="@{/employeeType}">Employee Types</a></li>
+            </ul>
+          </li>
+
+ <li class="sub-menu">
+            <a href="javascript:;" class="">
+                          <i class="icon_desktop"></i>
+                          <span>Accounts</span>
+                          <span class="menu-arrow arrow_carrot-right"></span>
+                      </a>
+            <ul class="sub">
+              <li><a class="" th:href="@{/invoice}">Invoices</a></li>
+              <li><a class="" th:href="@{/invoiceStatus}">Invoice Status Values</a></li>
+            </ul>
+          </li>
+
+          <li class="sub-menu">
+            <a href="javascript:;" class="">
+                          <i class="icon_documents_alt"></i>
+                          <span>Globals</span>
+                          <span class="menu-arrow arrow_carrot-right"></span>
+                      </a>
+            <ul class="sub">
+              <li><a class="" th:href="@{/countries}">Countries</a></li>
+              <li><a class="" th:href="@{/state}"><span>States</span></a></li>
+              <li><a class="" th:href="@{/location}"><span>Locations</span></a></li>
+            </ul>
+          </li>
+
+        </ul>
+        <!-- sidebar menu end-->
+      </div>
+   
